@@ -1,0 +1,63 @@
+.home_container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.container_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 45vh;
+    align-items: center;
+}
+.home_img{
+    width: 676px;
+    height: 121px;
+}
+.container_text{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.home_title{
+    color: #FE1936;
+    font-weight: 700;
+    font-size: 50px;
+}
+.home_text{
+    font-size: 26px;
+}
+.home_container .home_input{
+    outline: none; 
+    background-color: rgb(248, 247, 247);
+    border: solid 1px rgba(226, 224, 224, 0.904);
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+    width: 400px; 
+}
+.home_form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;   
+}
+.home_btn{
+    background-color:#D93F3F;
+    border: solid 1px gainsboro;
+    color: white;
+    padding: 10px;
+    border-radius: 0px 5px 5px 0px; 
+    font-size: 12px; 
+    font-weight:700;
+}
+.footer{
+    margin-top: auto;
+}

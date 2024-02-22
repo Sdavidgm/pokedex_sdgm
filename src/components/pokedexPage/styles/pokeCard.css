@@ -1,0 +1,112 @@
+.poke_card{
+    background-color: #fafaf8;
+    border: 2px solid gray;
+    border-radius: 25px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    gap: 5px;    
+    position: relative;   
+}
+
+.poke_card:hover{
+    transform: scale(1.05);
+}
+.poke_card div{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    border-radius: 20px 20px 0px 0px;
+}
+.poke_card figure{
+    width: 150px;
+    position: relative;
+    z-index: 10;
+
+}
+.poke_type{
+    display: flex;
+    gap:10px;
+}
+.poke_card hr{
+    width: 85%;
+}
+.poke_stats{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 15px;
+    width: 85%; 
+}
+.poke_stats li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slot2::before{
+    content:'/ ' ;
+}
+/*---------colores de fondo dinamico------*/
+.grass {
+    background-image:  linear-gradient(#7EC6C5, #ABDAC6, #CAE099); 
+    color:#7EC6C5
+}
+.st-grass :first-child{
+    color: #030706;
+}
+
+.normal{
+    background-image: linear-gradient(#735259, #BC6B7C, #7C3F4C);
+}
+.fighting{
+    background-image:linear-gradient(#96402A, #F1613C, #CB735D);
+}
+   
+.fire{
+    background-image:linear-gradient(#F96D6F, #E35825, #E8AE1B  );
+}
+.water{
+    background-image:linear-gradient(#133258, #1479FB, #82B2F1); 
+}
+.rock{
+    background-image:linear-gradient(#7E7E7E, #8D8D94, #D3D3D3); 
+}
+.ground{
+    background-image:linear-gradient(#654008, #895C1A, #D69638 );
+}
+.poison{
+    background-image:linear-gradient(#5B3184, #A564E3, #CE9BFF );
+}
+.bug{
+    background-image:linear-gradient(#62DB60,#3BB039, #AAFFA8 );
+}
+.ghost{
+    background-image:linear-gradient(#323569, #454AA8, #787DDA);
+}
+.dark{
+    background-image:linear-gradient(#030706, #0D1211, #5A5E5D);
+}
+.electric{
+    background-image:linear-gradient(#0C1395, #2B319B, #7075D9); 
+}
+.steel{
+    background-image: linear-gradient(#5E736C, #728881, #A8A8A8 );
+}
+.ice{
+    background-image: linear-gradient(#6FBEDF, #64CBF5, #BDEBFE );
+}
+.dragon{
+    background-image: linear-gradient(#478A93, #56A4AE, #A2BEC1 );
+}
+.fairy{
+    background-image: linear-gradient(#971B45, #C23867, #CD7D98);
+}
+.psychic{
+    background-image: linear-gradient(#E52D2D, #D13E3E, #F07F7F );
+}
+.flying{
+    background-image: linear-gradient(#4EBAC4, #1B8D97, #1B8D97);
+}
